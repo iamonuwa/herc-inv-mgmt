@@ -45,6 +45,7 @@ class AddItem extends Component {
                         <br/>
                         <h4 className="purple-text text-darken-2">Add items for the your shop!</h4>
                         <div className="divider"></div>
+                        
                         <br/>
                         <div className="row">
                             <form className="col s12" onSubmit={this.handleSubmit.bind(this)}>
@@ -70,8 +71,10 @@ class AddItem extends Component {
                                         <label className={this.state.thirdActive} onClick={this.onSupplyClicked.bind(this)} htmlFor="item_qty">Total Supply</label>
                                     </div>
                                 </div>
-                                
-                                <div className="col s12 right-align teal-text text-lighten-2" id="add-button">
+                                <div className="col s6 left-align" style={{padding:"0"}}>
+                                    <span className="helper-text left grey-text">Only the contract owner can add items for the shop.</span>
+                                </div>
+                                <div className="col s6 right-align teal-text text-lighten-2" id="add-button">
                                     <button className="btn waves-effect waves-light" type="submit" name="action" >Add Item
                                         <i className="material-icons right">add</i>
                                     </button>

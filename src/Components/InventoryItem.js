@@ -6,13 +6,9 @@ class ItemShopItem extends Component {
 
     constructor(){
         super();
-        
-
-        this.state = {
-        }
     }
     
-    handleSend(){
+    handleSend() {
         this.props.send(this.props.item.itemId);
     }
     

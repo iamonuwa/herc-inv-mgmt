@@ -44,8 +44,6 @@ class MyInventory extends Component {
     }
 
     sendGift(){
-        let line = this.state.chosenId + " " + this.state.inputValue1 + " " + this.state.inputValue2;
-        alert(line)
         this.props.contractInstance.giveItem(this.state.inputValue1, this.state.chosenId, this.state.inputValue2,
             {
                 gas: 300000
