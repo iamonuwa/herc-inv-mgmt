@@ -1,4 +1,7 @@
 # total poc, just playin around here from a tutorial. 
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/HERCone/herc-inv-mgmt.svg)](https://greenkeeper.io/)
+
 ## could turn into something idk 
 ### for more information on ERC1155 check out 
     https://github.com/hercone/erc1155
