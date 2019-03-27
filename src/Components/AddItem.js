@@ -43,7 +43,7 @@ class AddItem extends Component {
                 <div className="container" id="add-main-container">
                     <div className="card white z-depth-2 hoverable" id="add-main-card">
                         <br/>
-                        <h4 className="purple-text text-darken-2">Add items for the your shop!</h4>
+                        <h4 className="purple-text text-darken-2">Add Items to Your Shop</h4>
                         <div className="divider"></div>
                         
                         <br/>
@@ -72,7 +72,7 @@ class AddItem extends Component {
                                     </div>
                                 </div>
                                 <div className="col s6 left-align" style={{padding:"0"}}>
-                                    <span className="helper-text left grey-text">Only the contract owner can add items for the shop.</span>
+                                    <span className="helper-text left grey-text">Only the manager can add items for the shop.</span>
                                 </div>
                                 <div className="col s6 right-align teal-text text-lighten-2" id="add-button">
                                     <button className="btn waves-effect waves-light" type="submit" name="action" >Add Item

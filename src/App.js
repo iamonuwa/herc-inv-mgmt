@@ -97,10 +97,10 @@ class App extends Component {
           <div className="navbar-fixed">
             <nav className="white z-depth-0 ">
               <div className="nav-wrapper">
-                <a href="#" className="brand-logo purple-text"><img className="logo-image" src="logo.png"/><b>Lone Wanderer</b></a>
+                <a href="#" className="brand-logo purple-text"><img className="logo-image" src="logo.png"/><b>Inventory Management</b></a>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
-                  <li><a href="#" className="purple-text" onClick={this.renderItemShop.bind(this)}>Item Shop</a></li>
-                  <li><a href="#" className="purple-text" onClick={this.renderAddItem.bind(this)}>Add Item</a></li>
+                  <li><a href="#" className="purple-text" onClick={this.renderAddItem.bind(this)}>+</a></li>
+                  <li><a href="#" className="purple-text" onClick={this.renderItemShop.bind(this)}>Buy</a></li>
                   <li><a href="#" className="purple-text" onClick={this.renderMyInv.bind(this)}>Inventory</a></li>
                 </ul>
               </div>

@@ -165,7 +165,7 @@ class ItemShop extends Component {
 
             <div className="container" id="shop-main-container">
                 <div className="card white hoverable" id="shop-main-card">
-                <h4 className="purple-text text-darken-2">Hello adventurer, welcome to my shop!</h4>
+                <h4 className="purple-text text-darken-2">Shop Inventory</h4>
                 <div className="divider"></div>
                 <br/>
 
