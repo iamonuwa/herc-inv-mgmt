@@ -1,3 +1,10 @@
+# total poc, just playin around here from a tutorial. 
+## could turn into something idk 
+### for more information on ERC1155 check out 
+    https://github.com/hercone/erc1155
+    
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
