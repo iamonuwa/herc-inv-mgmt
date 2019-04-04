@@ -152,13 +152,13 @@ class ItemShop extends Component {
                             Overall Price: {totalPrice/10000} ETH
                         </div>
                         <div className="col s3" id="reset-button">
-                            <b><a href="#" class="teal-text text-lighten-2" onClick={this.onResetCart.bind(this)} >RESET</a></b>
+                            <b><a href="#" className="teal-text text-lighten-2" onClick={this.onResetCart.bind(this)} >RESET</a></b>
                         </div>
                         </div>
                     </div>
                 </div>
                 <div className="col s6" id="check-out">
-                    <a href="#" class="teal-text text-lighten-2" onClick={this.onCheckOut.bind(this)}><b>CHECK OUT</b></a>
+                    <a href="#" className="teal-text text-lighten-2" onClick={this.onCheckOut.bind(this)}><b>CHECK OUT</b></a>
                 </div>
                 </div>
             </div>
@@ -174,7 +174,7 @@ class ItemShop extends Component {
                 <tr>
                     <th>Item Name</th>
                     <th>Price</th>
-                    <th class="center-align">Stocks</th>
+                    <th className="center-align">Stocks</th>
                     <th className="center-align">Quantity</th>
                     <th></th>
                 </tr>

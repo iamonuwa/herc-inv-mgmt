@@ -37,10 +37,10 @@ class ItemShopItem extends Component {
                 <tr key className="ItemShopItem">
                     <td>{this.props.item.itemName}</td>
                     <td>{this.props.item.itemPrice/10000} ETH</td>
-                    <td class="center-align">{this.props.item.itemSupply}</td>
+                    <td className="center-align">{this.props.item.itemSupply}</td>
                     <td className="center-align"><input className="qty-textfield" style={{width: "100px"}} type="number" onChange={this.updateInputValue.bind(this)}/></td>
                     <td className="right" style={{marginTop:"10px"}}>
-                        <a class="waves-effect waves-light btn teal lighten-2 hoverable" style={{width: "160px"}} onClick={this.handlePick.bind(this)}><i class="material-icons right">add_shopping_cart</i>Add to</a>
+                        <a className="waves-effect waves-light btn teal lighten-2 hoverable" style={{width: "160px"}} onClick={this.handlePick.bind(this)}><i className="material-icons right">add_shopping_cart</i>Add to</a>
                     </td>
                 </tr>
             ];

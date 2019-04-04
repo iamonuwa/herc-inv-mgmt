@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import AddItem from './Components/AddItem';
 import Web3 from 'web3'
-import contract from './Contract Reference/EthInvReference';
+import contract from './ContractReference/EthInvReference';
 import MyInventory from './Components/MyInventory';
 import ItemShop from './Components/ItemShop';
 import './App.css';

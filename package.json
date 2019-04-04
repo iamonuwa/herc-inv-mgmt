@@ -2,6 +2,7 @@
   "name": "lone-wanderer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.4",

@@ -108,7 +108,7 @@ class MyInventory extends Component {
             <div className="modal-content">
                 <br/>
                 <h4 className="purple-text text-darken-1">Confirm Transaction</h4>
-                <div class="divider"></div>
+                <div className="divider"></div>
                 <br/>
                 <br/>
                 <div className="row">
@@ -125,8 +125,8 @@ class MyInventory extends Component {
                 </div>
             </div>
         <div className="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat teal-text text-lighten-2" onClick={this.sendGift.bind(this)}><b>Confirm</b></a>
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat teal-text text-lighten-2" onClick={this.toggle}><b>Cancel</b></a>
+            <a href="#!" className="modal-close waves-effect waves-green btn-flat teal-text text-lighten-2" onClick={this.sendGift.bind(this)}><b>Confirm</b></a>
+            <a href="#!" className="modal-close waves-effect waves-green btn-flat teal-text text-lighten-2" onClick={this.toggle}><b>Cancel</b></a>
         </div>
         </div>
         );
